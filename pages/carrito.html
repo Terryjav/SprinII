@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=divice-width,initial-scale=1.0">
+    <title>OnlyTie Carrito</title>
+        
+    <link rel="stylesheet" href="stylecart.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize,min.css"> 
+    <link rel="stylesheet" href="CSS/main.css">  
+    
+    <script src="#"></script>
+  
+  <!--head cart-->
+  </head>
+  <body>
+    <div class="banner1"> </div> <!--topbanner-->
+    <div class="container">
+     
+    <header class="topheader">  <!--head--> 
+        <div class="logo">
+          <img 
+              height="500"
+              width="900"
+              src="C:\Users\TGuilarte\Desktop\Ful stack\imagenesdeProyecto/Logo onlytie (1).png" alt="logo">                                                        
+                    
+        </div>
+         
+        
+        <!--menu de carrito-->
+      <nav>
+               
+          <a href="./index.html">OnlyTie</a>
+          <a href="#nuevosingresos">Categorias</a>
+          <a href="#about">Promociones</a>
+          <a href="#contact">Contacto</a>
+        
+        
+        <div class="search"> <!--buscardor-->
+          <form action="#">
+              <input type="text"
+                  placeholder=" Search"
+                  name="search">
+              <button type="submit">Buscar</button>
+          </form>
+        </div>
+
+      </nav>
+    </header>
+
+    <main class="main">
+        <section class="section">
+            <div class="intro">
+              <h1>Artículos a pagar</h1>
+            </div>
+
+          <div class="productoSeleccionado"> <!--product type-->
+              <img src="#" alt="imagen de articulo0"/>
+              <div class="articulo1">
+                  <h3>camisa de vestir</h3>
+                  <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae pariatur repudiandae perspiciatis facilis illo explicabo quo quaerat eos voluptate assumenda?</p>
+              </div>
+              <div class="contador">
+                  <button onclick="decrement()" class="buttonCont">-</button>    
+                  <h2 id="counting1"> 1 </h2>
+                  <button onclick="increment()" class="buttonCont">+</button>  
+              </div>
+              <div class="precio" id="precioFinal">
+                  <p>USD: 200</p>
+              </div>
+          </div>
+          <div class="Selección">
+              <img src="#" alt="imagen de articulo1" />
+              <div class="nameAndDesc">
+                  <h3>pantalones</h3>
+                  <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae pariatur repudiandae perspiciatis facilis illo explicabo quo quaerat eos voluptate assumenda?</p>
+              </div>
+              <div class="contador">
+                  <button onclick="decrement()" class="buttonCont">-</button>    
+                  <h2 id="counting2"> 1 </h2>
+                  <button onclick="increment()" class="buttonCont">+</button>  
+              </div>
+              <div class="precio">
+                  <p>USD 200</p>
+              </div>
+          </div>
+          <div class="productoSeleccionados">
+              <img src="#" alt="imagen de articulo2"/>
+              <div class="nameAndDesc">
+                  <h3>corbata</h3>
+                  <p>descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae pariatur repudiandae perspiciatis facilis illo explicabo quo quaerat eos voluptate assumenda?</p>
+              </div>
+              <div class="contador">
+                  <button onclick="decrement()" class="buttonCont">-</button>    
+                  <h2 id="counting3"> 1 </h2>
+                  <button onclick="increment()" class="buttonCont">+</button>  
+              </div>
+              <div class="precio">
+                  <p>USD 200</p>
+              </div>
+          </div>
+          <div class="subtotal">
+            <button type="submit">Ir a pagar</button>
+            <h1>Total a pagar: USD$ 600</h1>
+          </div>  
+        </section>
+        <div class="button_whatsapp">
+          <img 
+          height="50"
+          width="50"
+          src="C:\Users\TGuilarte\Desktop\Ful stack\imagenesdeProyecto/whatsapp.png" alt="whatsapp">
+          <a class="fab fa-whatsapp" href="https://wa.me/34555005500/?text=tu%20texto%20personalizado" target="_blank">Envianos un WhatsApp</a>
+         </div>
+      </main>
+    
+      <footer class="footer">Copyright &copy www.OnlyTie.com 
+          <nav>
+          <a href="#back">Volver</a>             
+          <a href="#contact">contacto</a>             
+          </nav>
+          <div>
+            <img src=" " />
+            <p>Copyrigth 2022</p> 
+          </div>
+          <div class=" ">
+            <img src="facebook">
+            <img src=" Instagram">
+            <img src=" WhatsApp">
+  
+          </div>
+      </footer>
+     </div>
+    </body>
+  </html>
+

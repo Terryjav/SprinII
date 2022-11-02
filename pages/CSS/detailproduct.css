@@ -1,0 +1,66 @@
+/*style configuration primary*/
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,500&display=swap');
+
+:root{
+    --theme-color: #ffff;
+    --primary-color: #000000;
+    --secondary-color:#f8f32b;
+    --text-color-inverse: #8D99AE;
+    --text-color:#000;
+    --navbar-shallow-color:#f8e806;
+    --menu-mobile-background-color:#2B2D42;
+}
+
+*{  padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    border: 1px solid var(--text-color-inverse);
+    text-align: center;
+    
+}
+/*style topbanner*/
+.banner1{
+    padding: 0px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: var(--secondary-color);
+}
+
+/*style head*/
+.topheader{
+    padding-top: 50px;
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+   
+.container menu ul li a{ 
+    display: flex;
+    flex-direction: row;
+    background-color: var(--secondary-color);
+}
+
+
+.footer{   /*footer*/
+padding-block-end: 1px;
+color: var(--secondary-color);
+background-color: var(--primary-color);
+    
+    
+}
+.footer ul li a{
+padding: 1px  1px;
+display: flex;
+flex-direction: row;
+text-decoration: none;
+text-align: center;
+text-decoration-color: #f8e806;
+
+}
