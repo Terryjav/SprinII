@@ -16,7 +16,7 @@
     box-sizing: border-box;
     font-family: 'Albert Sans', sans-serif;
 }
-
+/*contenido configutartion*/
 .container{
     width: 100%;
     border: 1px solid var(--text-color-inverse);

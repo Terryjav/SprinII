@@ -17,7 +17,7 @@
     font-family: 'Albert Sans', sans-serif;
 }
 
-.container{
+.container{   /*contenido configutartion*/
     width: 100%;
     border: 1px solid var(--text-color-inverse);
     text-align: center;
